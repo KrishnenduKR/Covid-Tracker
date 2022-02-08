@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.logo {
+  width: 370px;
+  margin-top: 50px;
+}
+
+@media (max-width:770px){
+  .App{
+    margin: 0 10%;
+  }
+  .logo{
+    width: 100%;
+  }
+}
